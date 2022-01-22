@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A website that converts files into base64.">
+      
+    <!-- Title -->
     <title>Convert Base64</title>
+    
+    <!-- Thumbnails -->
+    <link rel="icon" type="image/ico" href="images/spaceman-me-favicon.ico"/>
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="styles/style.css">
   </head>
+
   <body>
-    <div id="main">
-      <h2>Add your file to convert into base64</h2>
+    <main id="main">
+
+      <fieldset>
+        <h2>Add your file to convert into base64</h2>
+        <p>This site is designed to allow you to convert an image file (like a '.jpg' or '.png') into a base64 code.</p>
+        <p>Base 64 allows you to place the files into databases and such, which is why I made this.</p>
+        <input id="input" type="file" />
+        <p id="paragraph"></p>
+      </fieldset>
+
       <br>
-      <ul>
-        <li>This site is designed to allow you to convert an image file (like a '.jpg' or '.png' into a base64 code.</li>
-        <li>This allows you to place the files into databases and such. (Which is why I made this)</li>
-      </ul>
-      <p>This site is designed to allow you to convert an image file (like a '.jpg' or '.png' into a base64 code.</p>
-      <br> 
-      <p>This allows you to place the files into databases and such. (Which is why I made this)</p>
-      <br>
-      <input 
-        id="input"  
-        type="file"        
-      />
-      <br>
-      <p id="paragraph"></p>
-      <br>
+
       <img src="" id="image" />
+
       <br>
-      <p>Check out the <a href="https://github.com/cireneirbo/convert-base64">repository</a> on GitHub if you want to see how it works.</p>
+
+      <fieldset>
+        <p>Check out the <a href="https://github.com/cireneirbo/convert-base64">repository</a> on GitHub if you want to see how it works.</p>
+      </fieldset>
       
-    </div>
-	  <script src="js/main.js"></script>
+    </main>
+
+	  <!-- scripts-->
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

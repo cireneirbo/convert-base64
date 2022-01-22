@@ -2,12 +2,9 @@ body {
   text-align: center;
   padding: 50px;
   margin: 50px;
-  background-color: rgb(216, 216, 216);
-}
-
-p {
-  padding: 20px;
-  margin: 20px;
+  background-image: url("../images/nedulon.png");
+  background-size: auto;
+  background-attachment: fixed;
 }
 
 input {
@@ -18,9 +15,32 @@ input {
 img {
   max-width: 1280px;
   max-height: 960px;
+  padding-bottom: 20px;
+  
 }
 
 ul {
   list-style-type: none;
 }
 
+p {
+  word-wrap: break-word;
+  color: black;
+  padding: 20px;
+  margin: 20px;
+}
+
+fieldset {
+  border: 5px solid rgb(0, 0, 0);
+  background: #ddd;
+  border-radius: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: white;
+  opacity: 0.75;
+}
+
+main {
+  padding-left: 10%;
+  padding-right: 10%;
+} 
